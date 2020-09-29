@@ -1,11 +1,53 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
 html {
     font-size: 62.5%;
 }
 
-p {
-   font-size: 1.6rem;
-
+section {
+    width: 80%;
+    margin: 0 auto;
 }
-main div {
-    font-size: 1.6rem;
+
+figure {
+ background-color:red;
+ text-align: center;
+
+ width: 70%;
+ margin: 0 auto;
+ border-radius: 4px;
+ 
+}
+
+h2 {
+    background-color: rgb(129, 31, 31);
+    color: white;
+    text-align: center;
+
+    font-size: 3.5rem;
+    padding: 1.1rem;
+    width: 30%;
+    border-radius: 4px;
+    top: 1.1rem;
+    position: relative;
+    margin: 0 auto;   
+}
+p {
+    background-color: rgba(134, 43, 43, 0.822);
+    color: white;
+    text-align: center;
+    font-size: 2.6rem;
+    padding: 2.2rem;
+    border-radius: 4px;
+    margin: 0 auto;
+    top: 2.5rem;
+    width: 90%;
+}
+#logo_arsenal {
+    width: 300px;
+    height: 400px;
 }
