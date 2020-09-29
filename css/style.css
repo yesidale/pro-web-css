@@ -1,41 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+html {
+    font-size: 62.5%;
 }
 
-h1 {
-    font-family: serif;
-    margin-bottom: 10px;
-    color: red;
-}
-
-
-.title {
-    font-size: 18px;
-    font-family: monospace;
+p {
+   font-size: 1.6rem;
 
 }
-.nav {
-    margin-top: 10px;
-    list-style-type: none;
-    padding-left: 0;
-
-}
-
-.nav li {
-    display: inline-block;
-}
-
-.nav a {
-    color: white;
-    background-color: #13a4a4;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
-}
-
-.nav .blog {
-    background-color: yellowgreen;
+main div {
+    font-size: 1.6rem;
 }
